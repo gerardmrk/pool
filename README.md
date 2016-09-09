@@ -1,6 +1,8 @@
 ## connection pooling
 
-#### here's how you implement it:
+If you are looking at this repo for whatever reason: please use the official `sync.Pool`, not this. Made this for academic reasons and though I will use it in my own projects (so I have finegrain control over optimizing it later), I have no tests for it. So seriously please don't use it.
+
+#### Implementation example:
 
 ```
 package main
